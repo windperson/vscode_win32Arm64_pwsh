@@ -6,7 +6,7 @@ The benefit to use this portable development environment is providing a cleaner 
 
 ## Pre-requisites
 
-- Windows 10 or Windows 11 x64 environment
+- Microsoft Windows 11 ARM64 environment
 - Download the portable (zip) distribution from the release page:
   - [VSCode ARM64 zip](https://code.visualstudio.com/download)
   - [PowerShell v7.+ stable release zip(PowerShell-7.x.x-win-arm64.zip)](https://github.com/PowerShell/PowerShell/releases/)
