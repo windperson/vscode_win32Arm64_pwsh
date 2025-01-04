@@ -15,7 +15,7 @@ catch {
 try {
     Set-Location ..
     if (Test-Path VSCode) { Remove-Item VSCode -Force }
-    New-Item -ItemType SymbolicLink -Path VSCode -Target .\VSCode-win32-x64\Code.exe
+    New-Item -ItemType SymbolicLink -Path VSCode -Target .\VSCode-win32-arm64\Code.exe
 }
 catch {
     Set-Location $PSScriptRoot
