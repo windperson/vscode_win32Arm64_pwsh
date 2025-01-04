@@ -23,7 +23,7 @@ The benefit to use this portable development environment is providing a cleaner 
 - Download [**.NET Install Tool**](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscode-dotnet-runtime).
 - Download [**C# for Visual Studio Code** x64 version](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
 - (Optional) Download [Vim Visual Studio Code extension install file(*.vsix*)](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) if you want to use Vim extension in VSCode.
-- Download [ModuleFast v0.5.0 zip](https://github.com/JustinGrote/ModuleFast/releases/tag/v0.5.0) PowerShell module and extract to **pwsh_modules\ModuleFast\0.5.0** folder.
+- Download [ModuleFast v0.5.1 zip](https://github.com/JustinGrote/ModuleFast/releases/tag/v0.5.1) PowerShell module and extract to **pwsh_modules\ModuleFast\0.5.1** folder.
 
 ## Modify settings.json before first run
 
@@ -73,13 +73,13 @@ For example, to install [dumPS](https://github.com/deadlydog/PowerShell.dumPS) P
 Install-ModuleFast -Name dumPS -Destination D:\vscode_portable\pwsh_modules
 ```
 
-To install test framework [Pester](https://pester.dev/) from nuget.org and specify to install version v5.6.1 , in Integrated Terminal of VSCode, run:
+To install test framework [Pester](https://pester.dev/) from nuget.org and specify to install version v5.5.0 , in Integrated Terminal of VSCode, run:
 
 ```powershell
- @{ModuleName='Pester';ModuleVersion='5.6.1'} | Install-ModuleFast -Source api.nuget.org/v3 -Destination D:\vscode_portable\pwsh_modules
+@{ModuleName='Pester';ModuleVersion='5.5.0'} | Install-ModuleFast -Source api.nuget.org/v3 -Destination D:\vscode_portable\pwsh_modules
 ```
 
-so the Pester module will be installed to `pwsh_modules\Pester\5.6.1` folder, and ready for using in this portable development environment.
+so the Pester module will be installed to `pwsh_modules\Pester\5.5.0` folder, and ready for using in this portable development environment.
 
 ## How to update various components
 
